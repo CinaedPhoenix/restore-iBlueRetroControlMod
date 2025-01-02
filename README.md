@@ -1,6 +1,7 @@
 # restore-iBlueRetroControlMod
 How to maybe fix your iBlueRetroControlMod
 
+Did you ignore/overlook the warning not to flash 
 
-![Screenshot of a comment on a GitHub issue showing an image, added in the Markdown, of an Octocat smiling and raising a tentacle.](https://myoctocat.com/assets/image)  
+![Image of my iBlueRetroControlMod, rev 1.1](/assets/images/electrocat.png)  
 
