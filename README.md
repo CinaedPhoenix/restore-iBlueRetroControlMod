@@ -56,6 +56,7 @@ if you are really lucky and can still connect to the module via bluetooth (via "
 Remove the CR1220 Battery from your iBlueControlMod.
 
 Then connect the USB-UART to the MicroController in the following way:
+
 ![Image of the wiring I used](/img/wiring.png) 
 
 Doublecheck for any bridged connection before proceeding.
@@ -72,34 +73,43 @@ Set Baudrate to 460800 (I had more success with the connection this way)
 Press "Connect"
 Choose the COM port corresponding to your USB-UART
 Press "Connect"
+
 ![Image of USB port selection](/img/comport.png)
+
 Set Partition Table Offset to 8000
 Press "Read Partition Table"
+
 ![Image of Read Partition Table](/img/readparttable.png) 
 
 Warning...! If you do not see a partition table like this:
+
 ![Image of Partition Table](/img/parttable.png) 
 ...Your problem might not be solvable by my solution...
 
 I recommend that you backup all partitions at this point, press all the save buttons highlighted here:
+
 ![Image of save buttons](/img/savefiles.png) 
+
 Also save an image of your current partition table for future use.
 
 
 ## Step 3
 
 Press the "Choose File" button and locate the file you saved from the partition "factory".
+
 ![Image of choose file button](/img/choosefile.png) 
 
 In the "Flash Address" input box, input the address of the partition "ota_0",
 in my example, it's was address "0x110000".
 And press the "Program" button.
+
 ![Image of Flash address dialog](/img/flashaddress.png) 
 
 Sadly, this is where my screenshots ended and I don't want to redo it...
 But you should be done with the programming at this point.
 
 Wait untill the flash is done, then disconnect:
+
 ![Image of disconnect button](/img/disconnect.png)
 
 then unplug the USB-UART from your PC.
